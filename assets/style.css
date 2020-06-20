@@ -1,0 +1,219 @@
+
+body{background-color: #B0B0B0;
+margin-top:100px ;}
+
+img {
+    
+    height: 250px;
+    margin: 4px;
+    /* padding: 50px;* tried to stop text from overlaping during resize */
+    
+}
+.rowHeaderStyle {
+    font-size: 24px;
+    color: #B0B0B0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+}
+/* .nav-item {
+    float:left;
+    color:honeydew;
+    
+}
+#link{
+    float:left;
+    color: honeydew; <<< i was trying to change the color of the links, and float them under when resized*/
+
+
+.link{
+    color: honeydew
+}
+
+.footer {
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: x-small;
+  background-color: black;
+  color: #B0B0B0;
+  text-align: center;
+
+
+}
+
+.navbar-brand{
+    border-color: #B0B0B0;
+    border-top: auto;
+    border-bottom: 20px;
+    background-color: #B0B0B0;
+    /* was not working >>>color: honeydew; */
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-primary {
+	background-color: #B0B0B0;
+	border-color: #B0B0B0;}
+
+/* #links {
+    color: honeydew;
+    /* I tried to make an ID for the links, so that i can change their color, did not work... */
+} */
+
+.nav-link li a {
+    font: 20x;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* .picContainer {
+    width: 100px;
+    height: 100px;
+    see above, i ended up just rezising all images on the page */
+}
+
+/* .textBuffer{
+    margin-top: 25px;
+    padding-top: 125px;
+     *^trying to add padding/buffer between rows*/
+}
+
+.buffer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+/* this was me trying to get the text to flow underneath on index.html
+ .overflow {
+    float: inline-end;
+    overflow: visible;} */ 
+
+.thumbnail {
+    position: relative;
+    max-width: 80px;
+    /* NEW! not working? */
+    max-height: 80px;
+    /* New! not working? */}
+
+
+.caption {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-left: -25%;
+    margin-right: -25%;
+    right:50%;
+    width: 40%;
+    border: solid;
+    border-color: #B0B0B0;
+    background-color: #B0B0B0;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.mainWrapper {
+    /* overflow: auto ; */
+    column-width: auto;
+    height: auto;
+    background-color: honeydew;
+    margin-bottom: 15%;
+    margin-top: 8%;
+    margin-left: 5%;
+  width: 85%;
+  border: 5px  #B0B0B0;
+  border-bottom: 5px #B0B0B0;
+  float: left;
+  padding: 10px; 
+  border-radius: .1px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+}
+.paragraph{
+    float: left;
+    width: auto;
+    height: 100%;
+    /* overflow: scroll <<< I wanted to make it so that the text scrolled inside the column*/
+}
+.divider {
+margin-top:5px;
+ margin-bottom:5px;
+ height:2px;
+ width:auto;
+ border-top:10px solid #B0B0B0;
+ border-radius: 10px;
+}
+/* !!!!!!all of the above was taken from my previous portfolio !!!!!!*/
+
+.siteImg{
+ width: 30px;
+ height: 30px;
+ border-radius: 10px;
+ margin: 20px ;
+}
+
+#missStat {
+    text-align: center;
+    padding: 5px;
+}
+
+.prjImg{
+width: 80px;
+ height: 80px;
+ border-radius: 10px;
+ margin: 20px
+
+}
+#logo{
+    width: 100px;
+ height: 100px;
+ border-radius: 10px;
+ margin: 20px
+}
+#bgPic{
+    background-image: url('../assets/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+    }
+.btn-facebook{
+    background: #4267B2;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+}
+.btn-resume{
+    background: #CD5C5C;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+    }
+    .btn-gitHub{
+    background: #24292e;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461
+    }
